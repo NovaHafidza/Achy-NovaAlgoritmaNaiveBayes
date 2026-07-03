@@ -4,24 +4,50 @@
     <title>Algoritma Naive Bayes Achy-Nova</title>
 </head>
 <body>
-
 <h1>Algoritma Naive Bayes Achy-Nova</h1>
-
 <p>
-Proyek klasifikasi menggunakan metode Naive Bayes untuk menganalisis data kegemaran membaca.
+Halaman ini dibuat sebagai dokumentasi implementasi algoritma Naive Bayes dalam
+mengklasifikasikan tingkat kegemaran membaca masyarakat di setiap provinsi di Indonesia
+berdasarkan data tahun 2024.
 </p>
-
-<p>
-<a href="https://github.com/NovaHafidza/Achy-NovaAlgoritmaNaiveBayes/blob/main/Salinan_dari_Untitled3%20(1).ipynb" target="_blank">
-Buka Notebook Google Colab
-</a>
-</p>
-
+<hr>
+<h2>Dataset sebelum SMOTE</h2>
+<p>Dataset dalam format Microsoft Excel merupakan data awal yang digunakan pada penelitian
+ini. Dataset tersebut berisi data tingkat kegemaran membaca masyarakat di setiap
+provinsi sebelum dilakukan proses preprocessing menggunakan metode SMOTE.</p>
 <p>
 <a href="https://github.com/NovaHafidza/Achy-NovaAlgoritmaNaiveBayes/blob/main/dataset_nova_achy.xlsx"  target="_blank">
 Lihat Dataset Excel
 </a>
 </p>
-
+<hr>
+<h2>Notebook Google Colab</h2>
+<p>Notebook Google Colab digunakan sebagai tempat menjalankan seluruh proses penelitian.
+Di dalamnya terdapat proses membaca dataset, preprocessing menggunakan metode SMOTE,
+pembagian data training dan testing, pembentukan model Naive Bayes, hingga proses
+evaluasi menggunakan Accuracy, Precision, Recall, F1-Score, Classification Report,
+dan Confusion Matrix.
+</p>
+<p>
+<a href="https://github.com/NovaHafidza/Achy-NovaAlgoritmaNaiveBayes/blob/main/Salinan_dari_Untitled3%20(1).ipynb" target="_blank">
+Buka Notebook Google Colab
+</a>
+</p>
+<hr>
+<h2>Preprocessing Data (SMOTE)</h2>
+<p>
+Data yang telah diproses kemudian dibagi menjadi data training sebesar 80% dan data
+testing sebesar 20%. Data training digunakan untuk membangun model, sedangkan data
+testing digunakan untuk mengetahui kemampuan model dalam melakukan klasifikasi.
+</p>
+<hr>
+<h2> Hasil Evaluasi Moedel</h2>
+<p>
+Hasil pengujian menunjukkan bahwa model Naive Bayes mampu memberikan hasil klasifikasi
+yang baik. Berdasarkan proses evaluasi diperoleh nilai Accuracy sebesar <b>91,67%</b>,
+Precision <b>88,89%</b>, Recall <b>100%</b>, dan F1-Score <b>94,12%</b>. Selain itu,
+hasil klasifikasi juga ditampilkan dalam bentuk Classification Report dan Confusion
+Matrix untuk melihat performa model secara lebih rinci.\
+</p>
 </body>
 </html>
